@@ -1,0 +1,86 @@
+.first-item {
+  background-image: url("../../assets/image1.jpg");
+  padding-inline-start: 3rem;
+  background-size: cover;
+  color: white;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.text-container {
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.first-item h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.first-item h5 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.second-item {
+  background-image: url("../../assets/image1.jpg");
+  padding-inline-start: 3rem;
+  background-size: cover;
+  color: white;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.second-item h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.second-item h1 {
+  font-weight: 900;
+  font-size: 130px;
+  color: var(--bs-body-main-color);
+}
+
+.carousel-hero {
+  display: relative;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none !important;
+}
+
+.carousel .carousel-status {
+  display: none !important;
+}
+
+.carousel .control-dots {
+  text-align: left !important;
+	padding-left: 15rem !important;
+	padding-bottom: 2.5rem !important;
+}
+
+.carousel .control-dots .dot {
+  justify-content: left;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+@media (max-width: 1400px) {
+	.carousel .control-dots {
+		text-align: left !important;
+		padding-left: 10rem !important;
+		padding-bottom: 2.5rem !important;
+	}
+
+	.first-item h1 {
+		padding-inline-start: 1rem;
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+
+}

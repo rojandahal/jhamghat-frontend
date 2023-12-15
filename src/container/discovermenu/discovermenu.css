@@ -1,0 +1,25 @@
+.discover-icons {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+.discover-card > ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.discover-card > ul > li {
+	margin: 0 10px;
+}
+
+.discover-card {
+	display: flex;
+	padding-inline-start: 6rem;
+	padding-inline-end: 6rem;
+	justify-content: center;
+}
+

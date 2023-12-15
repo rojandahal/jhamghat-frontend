@@ -1,0 +1,48 @@
+.offer-container {
+	border: 3px solid #FFD40D;
+	border-radius: 30px;
+	font-weight: 600;
+	font-family: 'Poppins';
+	color: white;
+	background-color: #000000d4;
+	width: auto;
+	margin: 20px;
+	padding: 20px 30px;
+	justify-content: center;
+	position: absolute;
+	bottom: -20%;
+	right: 15%;
+}
+
+.offer-text > span {
+	position: absolute;
+	font-size: 12px;
+	font-weight: 100;
+	top: -10%;
+	right: 30px;
+	background-color: #f3274c;
+	padding: 5px 10px;
+	border-radius: 6px;
+}
+
+.price {
+	font-size: 28px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.offer-image {
+	padding-left: 20px
+}
+
+@media (max-width: 1400px) {
+	.offer-container {
+		width: 100%;
+		position: relative;
+		bottom: 0;
+		right: 0;
+	}
+	
+}

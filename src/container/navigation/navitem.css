@@ -1,0 +1,29 @@
+.navbar-custom {
+  display: flex;
+  background-color: #f6cb2d;
+  justify-content: space-evenly;
+  font-family: "Fredoka" sans-serif;
+  font-weight: 600;
+  align-items: center;
+}
+
+.custom-nav-items {
+  font-size: 18px;
+  padding: 30px 22px;
+  font-family: "Fredoka";
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-item > a {
+  color: black;
+}
+
+.nav-item > a:hover {
+  color: #f3274c;
+}
+
+.cart-icon {
+  font-size: 20px;
+  color: black;
+}

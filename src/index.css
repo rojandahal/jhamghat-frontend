@@ -1,0 +1,20 @@
+:root {
+	font-family: 'Poppins' ,sans-serif;
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+	--fa-font-brands: "normal 400 1em/1 Font Awesome 6 Brands"
+  line-height: 1.5;
+	font-size: 16px	'Poppins';
+	--bs-body-font-weight: 400;
+	--bs-body-main-color: #f6cb2d;
+	--bs-body-secondary-color: #f3274c;
+	--body-primary-color-light: #FFD40D;
+	--bs-body-transition: all 0.4s ease-in;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}

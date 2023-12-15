@@ -1,0 +1,38 @@
+.container-nav {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: black;
+	color: white;
+}
+
+.row-list-items {
+	grid-column: 1 / 4;
+}
+
+.row-list-items ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.row-list-end-items {
+	grid-column: 4 / 6;
+}
+
+.row-list-end-items ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.nav-ul-social-media {
+	display: flex;
+	padding-left: 1.5rem;
+	list-style: none;
+}
+
+.nav-ul {
+	display: flex;
+	list-style: none;
+}
+

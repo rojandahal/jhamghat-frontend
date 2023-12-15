@@ -1,0 +1,20 @@
+.container-about-section {
+  background-color: var(--bs-body-main-color);
+  padding: 20px;
+}
+
+.container-about-section > div > div > p {
+  text-align: justify;
+}
+
+.about-text > div > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--bs-body-secondary-color);
+}
+
+.about-text > div > h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--bs-body-secondary-color);
+}
