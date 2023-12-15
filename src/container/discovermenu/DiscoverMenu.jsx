@@ -21,27 +21,37 @@ export default function DiscoverMenu() {
     {
       id: 1,
       name: "Momo",
-      image: momo,
+      image:
+        "https://murphystechnology.com/jhamghatkhajagharweb/assets/img/discover-1.png",
+      logo: momo,
     },
     {
       id: 2,
       name: "Steak",
-      image: steak,
+      image:
+        "https://murphystechnology.com/jhamghatkhajagharweb/assets/img/discover-2.png",
+      logo: steak,
     },
     {
       id: 3,
       name: "Momo",
-      image: momo,
+      image:
+        "https://murphystechnology.com/jhamghatkhajagharweb/assets/img/discover-3.png",
+      logo: momo,
     },
     {
       id: 4,
       name: "Momo",
-      image: momo,
+      image:
+        "https://murphystechnology.com/jhamghatkhajagharweb/assets/img/discover-4.png",
+      logo: momo,
     },
     {
       id: 5,
       name: "Steak",
-      image: steak,
+      image:
+        "https://murphystechnology.com/jhamghatkhajagharweb/assets/img/discover-5.png",
+      logo: steak,
     },
   ];
 
@@ -59,7 +69,7 @@ export default function DiscoverMenu() {
               <DiscoverCard
                 key={item.id}
                 id={item.id}
-                Logo={item.image}
+                Logo={item.logo}
                 title={item.name}
                 selectedItem={selectedItem}
                 onClick={() => handleSelect(item.id)}
@@ -76,7 +86,7 @@ export default function DiscoverMenu() {
                 className='d-flex flex-column align-items-center'
                 key={item.id}
               >
-                <DiscoverContainer title={item.name} />
+                <DiscoverContainer item={item} />
               </div>
             ) : null
           )

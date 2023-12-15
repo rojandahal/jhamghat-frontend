@@ -1,13 +1,7 @@
 import "./discovercard.css";
 import PropTypes from "prop-types";
 
-export default function DiscoverCard({
-  Logo,
-  title,
-  onClick,
-  selectedItem,
-  id,
-}) {
+function DiscoverCard({ Logo, title, onClick, selectedItem, id }) {
   return (
     <>
       <div
@@ -29,10 +23,12 @@ export default function DiscoverCard({
   );
 }
 
-PropTypes.proptypes = {
+PropTypes.DiscoverCard = {
   Logo: PropTypes.string,
   title: PropTypes.string,
   onClick: PropTypes.func,
   selectedItem: PropTypes.number,
   id: PropTypes.number,
 };
+
+export default DiscoverCard;
