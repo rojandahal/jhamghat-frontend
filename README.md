@@ -2,11 +2,11 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# TO RUN
+# TO run the project
 1. Clone the repository
 2. npm install
 3. npm run dev
-Server runs on http://127.0.0.1:5173/
+- Server runs on http://127.0.0.1:5173/
 
 Currently, two official plugins are available:
 
